@@ -32,8 +32,17 @@ Use <leader>pa to see list of available commands
 
 ### Lines of code
 
-To add a line after the current one, press <kbd>o</kbd>. It will move the caret to the next line.
-To add a line before the current one, press <kbd>O</kbd>. It will move the caret to the previous line.
+- To add a line after the current one, press <kbd>o</kbd> in normal mode. It will move the caret to the next line.<br>
+- To add a line before the current one, press <kbd>O</kbd> in normal mode. It will move the caret to the previous line.<br>
+- To duplicate a line, press <kbd>Ctrl-d</kbd> in normal mode.<br>
+- To delete a line, place the caret at the line you need and press<kbd>dd</kbd> in normal mode.<br>
+- To join lines, place the caret at the line to which you want to join the other lines and press <kbd>J</kbd>.Keep pressing the keys until all the needed elements are joined.<br>
+- To comment a line of code, place the caret at the appropriate line and press <kbd>gcc</kbd>. Press <kbd>gcc</kbd> again on the same line to uncomment it.
+- To comment several lines of code, select few lines and press <kbd>gc</kbd>. Press <kbd>gc</kbd> on selected lines to uncomment them.
+- To move a line up or down, select it, press <kbd>J</kbd> to move it down or <kbd>K</kbd> to move it up.
+- To move (swap) an XML or HTML tag attribute to the left or to the right, place the caret at it, or select it and press CtrlAltShift0← for left or CtrlAltShift0→ for right. - ? 
+
+
 
 
 
