@@ -14,5 +14,12 @@ List of available boilerplates:
 - React Native
 - Vite
 - Vue.js
+
+
+## Write and edit source code
+
+### Find action 
+Find action using Telescope commands(see [C
+
   
 
