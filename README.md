@@ -1,4 +1,4 @@
-# VimCunami
+# VimTsunami
 A WebStorm inspired config for Neovim
 
 
