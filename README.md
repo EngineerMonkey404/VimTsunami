@@ -25,7 +25,7 @@ List of available boilerplates:
 
 ### Find action 
 Find action using Telescope commands(see [Telescope commands](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#vim-pickers))
-Use <leader>pa to see list of available commands
+Use \<leader\>pa to see list of available commands
 ![image](https://github.com/EngineerMonkey404/VimTsunami/assets/74253189/32fb49e1-2278-4763-b436-c72d79cc5126)
 
 ### https://www.jetbrains.com/help/webstorm/working-with-source-code.html#toggle-read-only
