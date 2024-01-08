@@ -2,15 +2,12 @@
 A WebStorm inspired config for Neovim
 
 
+
 ## Installation
 
-
-
-## Warning
+## Getting started
 Vim is key-based text-editor.
 All original keybinds from Vim are saved in this config. So, it's highly recommended to finish Neovim :Tutor first. 
-
-## Mapping
 Default \<leader\> key is \<space\>
 
 
@@ -33,7 +30,8 @@ List of available boilerplates:
 
 ### Find action 
 Find action using Telescope commands(see [Telescope commands](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#vim-pickers))
-Use \<leader\>pa to see list of available commands
+Use <kbd>\<leader\>pa</kbd> to see list of available commands
+
 ![image](https://github.com/EngineerMonkey404/VimTsunami/assets/74253189/32fb49e1-2278-4763-b436-c72d79cc5126)
 
 ### https://www.jetbrains.com/help/webstorm/working-with-source-code.html#toggle-read-only
@@ -58,6 +56,7 @@ Understanding these terms will help you recall the correct keyboard shortcut.
 - P stands for “put” in Vim, which is conceptually similar to pasting.
 
 #### Copying
+
 - You can use <kbd>y</kbd> to copy selected text to Vim buffer.
 - You can use <kbd>y</kbd> to copy selected text to Vim buffer.
 - You can use <kbd>yy</kbd> to copy the whole line to Vim buffer.
@@ -65,16 +64,32 @@ Understanding these terms will help you recall the correct keyboard shortcut.
 - You can use <kbd>\<leader\>y</kbd> to copy selected text to system clipboard.
 - You can use <kbd>\<leader\>Y</kbd> to copy from caret to the end of line to system clipboard.
 
+
 #### Cutting
-- You can use <kbd>d</kbd> on selected text to cut it in to Vim buffer.
-- You can sue
+
+- You can use <kbd>d</kbd> on selected text to cut it into Vim buffer.
+- You can use <kbd>dd</kbd> to cut the line into Vim buffer.
+- You can use <kbd>\<leader\>d</kbd> to cut the line into system clipboard.
+
 
 #### Pasting
 
+- You can use <kbd>p</kbd> to put the data from Vim buffer after the cursor.
+- You can use <kbd>P</kbd> to put the data from Vim buffer before the cursor.
+- You can use <kbd>Ctrl-Shift-V</kbd> to put the data from system clipboard after the cursor.
+
+By default, when you select text and paste something upon the selected text, selected text goes to Vim buffer.
+To prevent it you can use <kbd>\<leader\>p</kbd>, so it will save what you have in Vim buffer.
 
 
+#### Troubleshooting:
+If some commands above don't copy in to system clipboard, try to install [xsel](https://github.com/kfish/xsel) to your system. 
 
 
+## Code selection
+
+
+## List of plugins
 
   
 
