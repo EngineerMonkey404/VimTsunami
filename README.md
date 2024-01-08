@@ -2,8 +2,16 @@
 A WebStorm inspired config for Neovim
 
 
+## Installation
+
+
+
+## Warning
+Vim is key-based text-editor.
+All original keybinds from Vim are saved in this config. So, it's highly recommended to finish Neovim :Tutor first. 
+
 ## Mapping
-Default <leader> key is <space>
+Default \<leader\> key is \<space\>
 
 
 ## Creating a project
@@ -41,6 +49,28 @@ Use \<leader\>pa to see list of available commands
 - To comment several lines of code, select few lines and press <kbd>gc</kbd>. Press <kbd>gc</kbd> on selected lines to uncomment them.
 - To move a line up or down, select it, press <kbd>J</kbd> to move it down or <kbd>K</kbd> to move it up.
 - To move (swap) an XML or HTML tag attribute to the left or to the right, place the caret at it, or select it and press CtrlAltShift0← for left or CtrlAltShift0→ for right. - ? 
+
+### Copy and paste code
+
+Understanding these terms will help you recall the correct keyboard shortcut.
+- Y stands for “yank” in Vim, which is conceptually similar to copying.
+- D stands for “delete” in Vim, which is conceptually similar to cutting.
+- P stands for “put” in Vim, which is conceptually similar to pasting.
+
+#### Copying
+- You can use <kbd>y</kbd> to copy selected text to Vim buffer.
+- You can use <kbd>y</kbd> to copy selected text to Vim buffer.
+- You can use <kbd>yy</kbd> to copy the whole line to Vim buffer.
+- You can use <kbd>Y</kbd> to copy from caret to the end of line to Vim buffer.
+- You can use <kbd>\<leader\>y</kbd> to copy selected text to system clipboard.
+- You can use <kbd>\<leader\>Y</kbd> to copy from caret to the end of line to system clipboard.
+
+#### Cutting
+- You can use <kbd>d</kbd> on selected text to cut it in to Vim buffer.
+- You can sue
+
+#### Pasting
+
 
 
 
