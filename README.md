@@ -3,13 +3,14 @@ A WebStorm inspired config for Neovim
 
 
 
-# Installation
 
-## Getting started
+
+# Before we start
 Vim is key-based text-editor.
 All original keybinds from Vim are saved in this config. So, it's highly recommended to finish Neovim :Tutor first. 
 Default \<leader\> key is \<space\>
 
+# Installation
 
 # Creating a project
 You can create project from a boilerplate. 
@@ -101,8 +102,8 @@ Select needed code statement then use <kbd>H</kbd> or <kbd>J</kbd> to move it up
 #### Complete current statement
 
 - Press <kbd>Ctrl-Space</kbd> in insert mode to start completion.
-- Use <kbd>Ctrl-n</kbd> or <kbd>Ctrl-n</kbd> to select next or previous to choose relevant suggestion.
-- Use <kbd>Ctrl-y</kbd> after selection to complete statement.
+- Use <kbd>Ctrl-j</kbd> or <kbd>Ctrl-h</kbd> to select next or previous to choose relevant suggestion.
+- Use <kbd>\<CR>\</kbd> after selection to complete statement.
 
 
 ## Code fragments
@@ -131,7 +132,26 @@ Select needed code statement then use <kbd>H</kbd> or <kbd>J</kbd> to move it up
 
 
 
-## List of plugins
+# List of plugins
+
+| Plugin | Description |
+| --- | --- |
+| [Comment](https://github.com/numToStr/Comment.nvim) | Smart and Powerful commenting plugin for neovim |
+| [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring) | A Neovim plugin for setting the commentstring option based on the cursor location in the file. |
+| [vim-illuminate](https://github.com/RRethy/vim-illuminate) | Vim plugin for automatically highlighting other uses of the word under the cursor using either LSP, Tree-sitter, or regex matching. |
+| [mason.nvim](https://github.com/williamboman/mason.nvim) | Portable package manager for Neovim that runs everywhere Neovim runs.Easily install and manage LSP servers, DAP servers, linters, and formatters. |
+| [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) | mason-lspconfig bridges mason.nvim with the lspconfig plugin - making it easier to use both plugins together. |
+| [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) | Configs for the Nvim LSP client |
+| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | A completion engine plugin for neovim written in Lua. |
+| [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp) | nvim-cmp source for neovim's built-in language server client. |
+| [Luasnip](https://github.com/L3MON4D3/LuaSnip) | Dependency plugin for nvim-cmp |
+| [project.nvim](https://github.com/ahmedkhalf/project.nvim) | project.nvim is an all in one neovim plugin written in lua that provides superior project management. |
+| [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) | Plugin to provide web-icons |
+
+
+
+
+
 
   
 
