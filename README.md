@@ -88,8 +88,8 @@ If some commands above don't copy in to system clipboard, try to install [xsel](
 
 
 ## Code selection
-Use <kbd>v<kbd> to enter view mode and start selection.
-Use <kbd>V<kbd> to enter view mode with line selection.
+Use <kbd>v</kbd> to enter view mode and start selection.
+Use <kbd>V</kbd> to enter view mode with line selection.
 
 
 ## Code statements 
