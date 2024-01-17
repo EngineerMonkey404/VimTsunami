@@ -125,7 +125,50 @@ Select needed code statement then use <kbd>H</kbd> or <kbd>J</kbd> to move it up
 - To peek folded lines under cursor use <kbd>K</kbd> in normal mode.
 
 
-#
+# Editor basics
+
+## Navigation
+
+See [navigation between windows](https://neovim.io/doc/user/windows.html#window-move-cursor)
+
+
+## Scrollbar
+
+When you work this config displays code analysis results that include errors and warnings on the scrollbar. You can check whether your code has issues and quickly navigate to them.
+
+For more information and customization check [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar)
+
+
+## Editor tabs﻿
+
+Every time you open a file for editing, a tab with its name is added next to the active editor tab.
+
+### Close tabs
+
+- To close only active tab use <kbd><A-c></kbd>
+- To close all tabs except pinned use <kbd><leader>bwp</kbd>
+- To close all tabs except current use <kbd><leader>bwc</kbd>
+- To close all tabs except current and pinned tabs use <kbd><leader>bwe</kbd>
+- To close all tabs on the left from current tab use <kbd><leader>bwl</kbd>
+- To close all tabs on the right from current tab use <kbd><leader>bwl</kbd>
+
+
+### Copy path or filename
+
+- To copy relative path of current tab file use <kbd><leader>cf</kbd>
+- To copy absolute path of current tab file use <kbd><leader>cF</kbd>
+- To copy filename path of current tab file use <kbd><leader>ct</kbd>
+- To copy directory name of current tab file use <kbd><leader>ch</kbd>
+
+
+### Move or sort tabs
+
+- To move tab to the left use <kbd></kbd>
+- To move tab to the left use <kbd></kbd>
+- To sort tabs by use <kbd></kbd>
+- To sort tabs by use <kbd></kbd>
+- To sort tabs by use <kbd></kbd>
+- To sort tabs by use <kbd></kbd>
 
 
 
